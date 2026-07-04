@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Skillnova</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="starfield"></canvas>
+
+<header>
+  <div class="logo"><span class="logo-dot"></span>Skillnova</div>
+  <button class="menu-toggle" id="menuToggle">☰</button>
+  <nav>
+    <ul id="navList">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="tutoring.html">Tutoring</a></li>
+      <li><a href="contact.html" class="nav-cta active">Get in touch</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="page-hero">
+  <div class="eyebrow">Get in touch</div>
+  <h1>Have something in mind? <span class="grad">Let's talk.</span></h1>
+  <p>Whether it's a website, a redesign, a video, or a tutor for an upcoming exam — send a message and expect a reply within a day.</p>
+</div>
+
+<section>
+  <div class="contact-wrap">
+    <div class="contact-info">
+      <h2>Reach out directly</h2>
+      <p>Pick whichever way is easiest — email, WhatsApp, or the form. All of them reach the same place.</p>
+      <div class="contact-methods">
+        <div class="contact-method"><span class="ic">✉️</span> shasmeenofficial12@gmail.com</div>
+        <a class="contact-method" href="https://whatsapp.com/channel/0029VbDNTPNI7BeJlJGkMR1N" target="_blank" rel="noopener"><span class="ic">📱</span> WhatsApp Channel</a>
+        <a class="contact-method" href="https://www.linkedin.com/in/shasmeen-zahra-2903952b8/?skipRedirect=true" target="_blank" rel="noopener"><span class="ic">in</span> LinkedIn</a>
+        <a class="contact-method" href="https://github.com/shasmeenZahra" target="_blank" rel="noopener"><span class="ic">gh</span> GitHub</a>
+        <a class="contact-method" href="https://www.instagram.com/uulvv_shasu_" target="_blank" rel="noopener"><span class="ic">ig</span> Instagram</a>
+        <div class="contact-method"><span class="ic">💬</span> Use the assistant in the corner for quick questions</div>
+      </div>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" required placeholder="Your name">
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" required placeholder="you@email.com">
+      </div>
+      <div class="form-row">
+        <label for="service">What do you need?</label>
+        <select id="service">
+          <option>Website / Web App</option>
+          <option>AI Chatbot / Automation</option>
+          <option>Design (Logo / Branding / Social)</option>
+          <option>Video Editing</option>
+          <option>Tutoring</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" required placeholder="Tell me a bit about what you're looking for..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary submit-btn">Send message</button>
+    </form>
+  </div>
+</section>
+
+<section>
+  <div class="section-head">
+    <div class="eyebrow">FAQ</div>
+    <h2>Common questions, answered.</h2>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item">
+      <div class="faq-q"><span>Do you work with clients outside Pakistan?</span><span class="plus">+</span></div>
+      <div class="faq-a"><p>Yes — most work is remote and done online, so location doesn't matter. Payments can be arranged through whatever method works for both sides.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q"><span>How long does a typical project take?</span><span class="plus">+</span></div>
+      <div class="faq-a"><p>A simple website usually takes 3–7 days, design work 1–3 days per batch, and tutoring starts as soon as a schedule is agreed on.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q"><span>How does payment work?</span><span class="plus">+</span></div>
+      <div class="faq-a"><p>Payment terms are agreed on before starting — usually a portion upfront and the rest on delivery for larger projects.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q"><span>Can I get a free trial before committing?</span><span class="plus">+</span></div>
+      <div class="faq-a"><p>Yes, for tutoring a free 15-minute trial session is available. For design or development work, a quick call to discuss scope comes first.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div><span class="logo-dot" style="display:inline-block;margin-right:6px;"></span>Skillnova</div>
+  <div class="footer-socials">
+    <a href="https://www.linkedin.com/in/shasmeen-zahra-2903952b8/?skipRedirect=true" target="_blank" rel="noopener" title="LinkedIn">in</a>
+    <a href="https://github.com/shasmeenZahra" target="_blank" rel="noopener" title="GitHub">gh</a>
+    <a href="https://www.instagram.com/uulvv_shasu_" target="_blank" rel="noopener" title="Instagram">ig</a>
+    <a href="https://whatsapp.com/channel/0029VbDNTPNI7BeJlJGkMR1N" target="_blank" rel="noopener" title="WhatsApp Channel">wa</a>
+    <a href="mailto:shasmeenofficial12@gmail.com" title="Email">@</a>
+  </div>
+  <div>Built with care, one project at a time.</div>
+</footer>
+
+<a id="whatsappBtn" href="https://whatsapp.com/channel/0029VbDNTPNI7BeJlJGkMR1N" target="_blank" rel="noopener" title="WhatsApp">📱</a>
+
+<button id="assistantToggle">💬</button>
+<div id="assistantPanel">
+  <div class="assistant-head">
+    <span class="dot"></span>
+    <div><b>Skillnova Assistant</b><span>Usually replies in a day</span></div>
+  </div>
+  <div id="assistantMessages">
+    <div class="msg bot">Hi! I can answer quick questions about services, pricing, or how to get started. What would you like to know?</div>
+  </div>
+  <div class="quick-replies" id="quickReplies">
+    <div class="quick-reply" data-q="services">What services do you offer?</div>
+    <div class="quick-reply" data-q="pricing">How much does it cost?</div>
+    <div class="quick-reply" data-q="tutoring">Tell me about tutoring</div>
+    <div class="quick-reply" data-q="contact">How do I get started?</div>
+  </div>
+  <div class="assistant-input">
+    <input type="text" id="assistantInput" placeholder="Type a question...">
+    <button id="assistantSend">Send</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
