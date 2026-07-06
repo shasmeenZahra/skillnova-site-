@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Subject — Skillnova</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="starfield"></canvas>
+
+<header>
+  <div class="logo"><span class="logo-dot"></span>Skillnova</div>
+  <button class="menu-toggle" id="menuToggle">☰</button>
+  <nav>
+    <ul id="navList">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="tutoring.html" class="active">Tutoring</a></li>
+      <li><a href="contact.html" class="nav-cta">Get in touch</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="page-hero">
+  <div class="eyebrow">Tutoring · Subject</div>
+  <h1 id="subjectHeading">Loading...</h1>
+  <p id="subjectIntro"></p>
+</div>
+
+<section>
+  <div class="subject-tabs" id="subjectTabs"></div>
+
+  <div class="section-head">
+    <div class="eyebrow">What's covered</div>
+    <h2 id="topicsHeading">Topics &amp; areas</h2>
+  </div>
+  <div class="subjects-grid" id="topicsGrid"></div>
+</section>
+
+<section>
+  <div class="highlight-banner">
+    <div class="big-icon" id="subjectIcon">📘</div>
+    <div>
+      <h3>How lessons are taught</h3>
+      <p id="approachText">Clear, step-by-step explanations paired with real practice — built around how the student learns best, not a fixed script.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-head center" style="margin-left:auto;margin-right:auto;">
+    <div class="eyebrow">Ready to start?</div>
+    <h2>Try a free 15-minute session — no pressure, no commitment.</h2>
+  </div>
+  <div style="text-align:center;">
+    <a href="contact.html" class="btn btn-primary">Book a free trial →</a>
+  </div>
+</section>
+
+<footer>
+  <div><span class="logo-dot" style="display:inline-block;margin-right:6px;"></span>Skillnova</div>
+  <div class="footer-socials">
+    <a href="https://www.linkedin.com/in/shasmeen-zahra-2903952b8/?skipRedirect=true" target="_blank" rel="noopener" title="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a>
+    <a href="https://github.com/shasmeenZahra" target="_blank" rel="noopener" title="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 2.87-.39c.97.01 1.95.13 2.87.39 2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.41-5.27 5.7.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg></a>
+    <a href="https://www.instagram.com/uulvv_shasu_" target="_blank" rel="noopener" title="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.7"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+    <a href="https://whatsapp.com/channel/0029VbDNTPNI7BeJlJGkMR1N" target="_blank" rel="noopener" title="WhatsApp Channel"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.28-.14-1.67-.82-1.93-.92-.26-.1-.45-.14-.64.14-.19.28-.74.92-.9 1.1-.17.19-.33.21-.61.07-.28-.14-1.19-.44-2.26-1.4-.84-.75-1.4-1.67-1.57-1.95-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.5.14-.16.19-.28.28-.47.1-.19.05-.35-.02-.5-.07-.14-.64-1.55-.88-2.12-.23-.56-.47-.48-.64-.49h-.55c-.19 0-.5.07-.76.35-.26.28-1 1-1 2.42 0 1.43 1.03 2.81 1.17 3 .14.19 2.03 3.1 4.93 4.35.69.3 1.22.48 1.64.61.69.22 1.32.19 1.81.11.55-.08 1.67-.68 1.91-1.34.24-.66.24-1.22.17-1.34-.07-.12-.26-.19-.54-.33zM12.02 2C6.5 2 2 6.48 2 12c0 1.87.51 3.63 1.4 5.14L2 22l4.99-1.35C8.44 21.5 10.17 22 12.02 22 17.53 22 22 17.52 22 12S17.53 2 12.02 2z"/></svg></a>
+    <a href="mailto:shasmeenofficial12@gmail.com" title="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M3 6l9 7 9-7"/></svg></a>
+  </div>
+  <div>Built with care, one project at a time.</div>
+</footer>
+
+<a id="whatsappBtn" href="https://whatsapp.com/channel/0029VbDNTPNI7BeJlJGkMR1N" target="_blank" rel="noopener" title="WhatsApp">📱</a>
+
+<button id="assistantToggle">💬</button>
+<div id="assistantPanel">
+  <div class="assistant-head">
+    <span class="dot"></span>
+    <div><b>Skillnova Assistant</b><span>Usually replies in a day</span></div>
+  </div>
+  <div id="assistantMessages">
+    <div class="msg bot">Hi! I can answer quick questions about services, pricing, or how to get started. What would you like to know?</div>
+  </div>
+  <div class="quick-replies" id="quickReplies">
+    <div class="quick-reply" data-q="services">What services do you offer?</div>
+    <div class="quick-reply" data-q="pricing">How much does it cost?</div>
+    <div class="quick-reply" data-q="tutoring">Tell me about tutoring</div>
+    <div class="quick-reply" data-q="contact">How do I get started?</div>
+  </div>
+  <div class="assistant-input">
+    <input type="text" id="assistantInput" placeholder="Type a question...">
+    <button id="assistantSend">Send</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script>
+const SUBJECTS = {
+  math: {
+    name: "Mathematics", icon: "📐",
+    intro: "From basic arithmetic to algebra, geometry, trigonometry, and pre-calculus — built on strong fundamentals, not shortcuts.",
+    topics: ["Arithmetic & Number Sense","Algebra I & II","Geometry","Trigonometry","Pre-Calculus","Word Problems & Applications","Exam Prep (O/A Level, SAT-style)","Homework Support"],
+    approach: "Every topic starts with the 'why' before the 'how' — so formulas make sense instead of just being memorized. Lessons move at the student's pace, with plenty of practice problems worked through together."
+  },
+  physics: {
+    name: "Physics", icon: "🔬",
+    intro: "Mechanics, energy, waves, and electricity — explained with real-world examples so the concepts actually stick.",
+    topics: ["Mechanics & Motion","Forces & Newton's Laws","Energy & Work","Waves & Sound","Electricity & Circuits","Numericals & Problem Solving","Exam Prep","Homework Support"],
+    approach: "Physics clicks when you can picture it — so lessons lean on diagrams, real examples, and step-by-step numericals rather than abstract formulas alone."
+  },
+  chemistry: {
+    name: "Chemistry", icon: "🧪",
+    intro: "Atomic structure, reactions, and organic chemistry basics — broken down into clear, logical steps.",
+    topics: ["Atomic Structure","Periodic Table Trends","Chemical Bonding","Reactions & Equations","Organic Chemistry Basics","Stoichiometry","Exam Prep","Homework Support"],
+    approach: "Concepts are connected back to the periodic table and real reactions, so chemistry feels like a system that makes sense — not a list of facts to memorize."
+  },
+  biology: {
+    name: "Biology", icon: "📗",
+    intro: "Cell biology, genetics, human systems, and ecology — taught with clear diagrams and structured notes.",
+    topics: ["Cell Biology","Genetics & Heredity","Human Body Systems","Ecology & Environment","Diagrams & Labeling","Exam Prep","Homework Support"],
+    approach: "Biology is heavy on terminology and structure — so lessons focus on organizing information clearly (diagrams, comparisons, summaries) so it's easier to recall under exam pressure."
+  },
+  english: {
+    name: "English", icon: "✍️",
+    intro: "Grammar, comprehension, essay writing, and literature analysis — for clearer, more confident writing.",
+    topics: ["Grammar & Sentence Structure","Reading Comprehension","Essay Writing","Literature Analysis","Vocabulary Building","Exam Prep","Homework Support"],
+    approach: "Writing improves fastest with feedback — so sessions include real writing practice with direct, constructive feedback, not just grammar rules in isolation."
+  },
+  "social-studies": {
+    name: "Social Studies", icon: "🌍",
+    intro: "History, geography, and civics — presented as connected stories and systems, not disconnected facts.",
+    topics: ["World & Regional History","Geography","Civics & Government","Timelines & Cause-Effect","Map Work","Exam Prep","Homework Support"],
+    approach: "Dates and facts stick better when they're part of a bigger story — so lessons connect events and ideas together instead of teaching them in isolation."
+  },
+  "computer-science": {
+    name: "Computer Science", icon: "💻",
+    intro: "Programming fundamentals, logic building, and intro-level computer science concepts.",
+    topics: ["Programming Basics (Python/JS)","Logic & Algorithms","Data Structures Intro","Web Basics (HTML/CSS)","Problem Solving","Exam Prep","Homework Support"],
+    approach: "Taught by someone who builds real software day to day — so concepts are grounded in how things actually work in practice, not just theory."
+  },
+  statistics: {
+    name: "Statistics", icon: "📊",
+    intro: "Data, probability, and interpretation — the kind of math that shows up everywhere outside the classroom too.",
+    topics: ["Descriptive Statistics","Probability","Data Interpretation & Graphs","Distributions","Hypothesis Basics","Exam Prep","Homework Support"],
+    approach: "Statistics makes more sense with real data — so lessons use practical examples and visuals instead of just formulas and tables."
+  }
+};
+
+function slugLabel(slug){
+  return SUBJECTS[slug] ? SUBJECTS[slug].name : slug;
+}
+
+const params = new URLSearchParams(window.location.search);
+let current = params.get('s') || 'math';
+if(!SUBJECTS[current]) current = 'math';
+
+function render(slug){
+  const data = SUBJECTS[slug];
+  document.getElementById('pageTitle').textContent = data.name + ' Tutoring — Skillnova';
+  document.getElementById('subjectHeading').innerHTML = data.name + ' <span class="grad">tutoring</span>, made simple.';
+  document.getElementById('subjectIntro').textContent = data.intro;
+  document.getElementById('subjectIcon').textContent = data.icon;
+  document.getElementById('topicsHeading').textContent = data.name + ' — topics & areas covered';
+  document.getElementById('approachText').textContent = data.approach;
+
+  const grid = document.getElementById('topicsGrid');
+  grid.innerHTML = '';
+  data.topics.forEach(t=>{
+    const div = document.createElement('div');
+    div.className = 'subject-chip';
+    div.textContent = t;
+    grid.appendChild(div);
+  });
+
+  const tabs = document.getElementById('subjectTabs');
+  tabs.innerHTML = '';
+  Object.keys(SUBJECTS).forEach(key=>{
+    const a = document.createElement('a');
+    a.href = 'subject.html?s='+key;
+    a.className = 'subject-tab' + (key===slug ? ' active' : '');
+    a.textContent = SUBJECTS[key].icon + ' ' + SUBJECTS[key].name;
+    tabs.appendChild(a);
+  });
+}
+
+render(current);
+</script>
+</body>
+</html>
