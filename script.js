@@ -61,6 +61,17 @@ document.querySelectorAll('.faq-item').forEach(item=>{
 (function(){
   const form = document.getElementById('contactForm');
   if(!form) return;
+  const params = new URLSearchParams(window.location.search);
+  const serviceParam = params.get('service');
+  if(serviceParam){
+    const select = document.getElementById('service');
+    for(const opt of select.options){
+      if(opt.value.toLowerCase().includes(serviceParam.toLowerCase())){
+        select.value = opt.value;
+        break;
+      }
+    }
+  }
   form.addEventListener('submit', function(e){
     e.preventDefault();
     const name = document.getElementById('name').value;
